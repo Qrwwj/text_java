@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/lx/laoshi.iml" filepath="$PROJECT_DIR$/lx/laoshi.iml" />
       <module fileurl="file://$PROJECT_DIR$/lianxi.iml" filepath="$PROJECT_DIR$/lianxi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lx1/lx1.iml" filepath="$PROJECT_DIR$/lx1/lx1.iml" />
     </modules>
   </component>
 </project>
