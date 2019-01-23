@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Homework/HomeWork.iml" filepath="$PROJECT_DIR$/Homework/HomeWork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/function/function.iml" filepath="$PROJECT_DIR$/function/function.iml" />
       <module fileurl="file://$PROJECT_DIR$/lx/laoshi.iml" filepath="$PROJECT_DIR$/lx/laoshi.iml" />
       <module fileurl="file://$PROJECT_DIR$/lianxi.iml" filepath="$PROJECT_DIR$/lianxi.iml" />
       <module fileurl="file://$PROJECT_DIR$/lx1/lx1.iml" filepath="$PROJECT_DIR$/lx1/lx1.iml" />
