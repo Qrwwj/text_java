@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.swc.dao.AddressDao">
+    <select id="getAddress" resultType="com.swc.pojo.Address">
+        select id,name,parentId from address
+    </select>
+    <delete id="deleteAddress">
+        delete from address where id=#{id}
+    </delete>
+    <select id="selectone" resultType="com.swc.pojo.Address">
+        select id,name,parentId from address where id=#{id}
+    </select>
+    <update id="updateAddress">
+        update address
+        <set>
+            <trim suffixOverrides=",">
+                <if test="name!=null">
+                    name=#{name}
+                </if>
+                <if test="parentId!=null">
+                    parentId=#{parentId}
+                </if>
+            </trim>
+        </set>
+        <where>
+            id=#{id}
+        </where>
+    </update>
+</mapper>

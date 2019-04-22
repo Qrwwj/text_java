@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.swc.dao.ProductDao">
+    <select id="getproducts" resultType="com.swc.pojo.Product" parameterType="map">
+        select id,handleId,name,subtitle,mainImage,detail,price,stock,status,updateTime
+        from product
+        <where>
+            <if test="name!=null">
+                and name like concat('%',#{name},'%')
+            </if>
+            <if test="status!=null">
+                and status=#{status}
+            </if>
+        </where>
+    </select>
+    <delete id="deleteproduct">
+        delete from product where id=#{id}
+    </delete>
+    <select id="selectone" resultType="com.swc.pojo.Product">
+        select id,handleId,name,subtitle,mainImage,detail,price,stock,status from product
+        where id=#{id}
+    </select>
+    <update id="updateproduct">
+        update product
+        <set>
+            <trim suffixOverrides=",">
+                <if test="handleId!=null">
+                    handleId=#{handleId},
+                </if>
+                <if test="name!=null">
+                    name=#{name},
+                </if>
+                <if test="subtitle!=null">
+                    subtitle=#{subtitle},
+                </if>
+                <if test="mainImage!=null">
+                    mainImage=#{mainImage},
+                </if>
+                <if test="detail!=null">
+                    detail=#{detail},
+                </if>
+                <if test="price!=null">
+                    price=#{price},
+                </if>
+                <if test="stock!=null">
+                    stock=#{stock},
+                </if>
+                <if test="status!=null">
+                    status=#{status},
+                </if>
+            </trim>
+        </set>
+        <where>
+            id=#{id}
+        </where>
+    </update>
+    <insert id="insertproduct">
+        insert into product
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="handleId!=null">
+                handleId,
+            </if>
+
+            <if test="name!=null">
+                name,
+            </if>
+            <if test="subtitle!=null">
+                subtitle,
+            </if>
+            <if test="mainImage!=null">
+                mainImage,
+            </if>
+            <if test="detail!=null">
+                detail,
+            </if>
+            <if test="price!=null">
+                price,
+            </if>
+            <if test="stock!=null">
+                stock,
+            </if>
+            <if test="status!=null">
+                status,
+            </if>
+        </trim>
+        <trim prefix="values(" suffix=")" suffixOverrides=",">
+            <if test="handleId!=null">
+                #{handleId},
+            </if>
+
+            <if test="name!=null">
+                #{name},
+            </if>
+            <if test="subtitle!=null">
+                #{subtitle},
+            </if>
+            <if test="mainImage!=null">
+                #{mainImage},
+            </if>
+            <if test="detail!=null">
+                #{detail},
+            </if>
+            <if test="price!=null">
+                #{price},
+            </if>
+            <if test="stock!=null">
+                #{stock},
+            </if>
+            <if test="status!=null">
+                #{status},
+            </if>
+        </trim>
+    </insert>
+</mapper>

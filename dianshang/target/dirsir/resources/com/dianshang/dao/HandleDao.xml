@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace：命名空间，用于隔离sql，实际使用中，与mapper绑定 -->
+<mapper namespace="com.dianshang.dao.HandleDao">
+    <!-- sql语句 -->
+    <!--对商品进行操作-->
+    <select id="gethandles" resultType="Handle">
+        select id,name,parent_id,status,sort_order,create_time,update_time from handle
+        <where>
+            <if test="parent_id!=null">
+                and parent_id!=0
+            </if>
+        </where>
+        order by sort_order
+    </select>
+    <!--删除-->
+    <!--<delete id="delete" parameterType="Handle">-->
+        <!--delete from handle where id=#{id}-->
+    <!--</delete>-->
+    <!--修改-->
+    <update id="update">
+        update handle
+        <set>
+            <trim  suffixOverrides=",">
+
+                <if test="name!=null">name=#{name},</if>
+                <if test="parent_id!=null">parent_id=#{parent_id},</if>
+                <if test="status!=null">status=#{status},</if>
+                <if test="sort_order!=null">sort_order=#{sort_order},</if>
+                update_time=now()
+            </trim>
+
+        </set>
+        <where>
+
+            and id=#{id}
+        </where>
+    </update>
+    <insert id="insert" parameterType="Handle">
+        insert into handle
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="name!=null">name,</if>
+            <if test="parent_id!=null">parent_id,</if>
+            <if test="status!=null">status,</if>
+            <if test="sort_order!=null">sort_order,</if>
+            create_time
+        </trim>
+        <trim prefix="values(" suffix=")" suffixOverrides=",">
+            <if test="name!=null">#{name},</if>
+            <if test="parent_id!=null">#{parent_id},</if>
+            <if test="status!=null">#{status},</if>
+            <if test="sort_order!=null">#{sort_order},</if>
+            now()
+        </trim>
+    </insert>
+    <select id="gethandleOne" resultType="Handle">
+        select * from handle where id=#{id}
+    </select>
+</mapper>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace：命名空间，用于隔离sql，实际使用中，与mapper绑定 -->
+<mapper namespace="com.dianshang.dao.UserDao">
+    <!-- sql语句 -->
+    <!--对用户进行操作-->
+    <select id="getuser" resultType="User">
+        select id,username,password,email,phone,question,answer,role,updateTime from user
+        <where>
+        <if test="username!=null">
+            and username like concat('%',#{username},'%')
+        </if>
+        </where>
+    </select>
+    <insert id="insert" parameterType="User">
+        insert into user
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="username!=null">username,</if>
+            <if test="password!=null">password,</if>
+            <if test="email!=null">email,</if>
+            <if test="phone!=null">phone,</if>
+            <if test="question!=null">question,</if>
+            <if test="answer!=null">answer,</if>
+            <if test="role!=null">role,</if>
+            create_time,update_time
+        </trim>
+        <trim prefix="values(" suffix=")" suffixOverrides=",">
+            <if test="username!=null">#{username},</if>
+            <if test="password!=null">#{password},</if>
+            <if test="email!=null">#{email},</if>
+            <if test="phone!=null">#{phone},</if>
+            <if test="question!=null">#{question},</if>
+            <if test="answer!=null">#{answer},</if>
+            <if test="role!=null">#{role},</if>
+            now(),now()
+        </trim>
+    </insert>
+    <update id="update" parameterType="User">
+        update user
+        <set>
+            <trim suffixOverrides=",">
+                <if test="password!=null">password=#{password},</if>
+                <if test="email!=null">email=#{email},</if>
+                <if test="phone!=null">phone=#{phone},</if>
+                updateTime=now()
+            </trim>
+        </set>
+        <where>
+            id=#{id}
+        </where>
+    </update>
+    <delete id="delete" parameterType="User">
+        delete from user where id=#{id}
+    </delete>
+    <select id="getUserByUsername" resultType="User">
+        select * from user where username=#{username}
+    </select>
+    <select id="getUserByUsernameAndPassword" parameterType="map" resultType="User">
+        select * from user where username=#{username} and password=#{password}
+    </select>
+</mapper>

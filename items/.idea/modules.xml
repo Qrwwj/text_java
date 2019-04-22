@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../commerce/commerce.iml" filepath="$PROJECT_DIR$/../commerce/commerce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/items.iml" filepath="$PROJECT_DIR$/items.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../jdbc/jdbc.iml" filepath="$PROJECT_DIR$/../jdbc/jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../jweb/jweb.iml" filepath="$PROJECT_DIR$/../jweb/jweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../lianxi/lianxi.iml" filepath="$PROJECT_DIR$/../lianxi/lianxi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../practice/practice.iml" filepath="$PROJECT_DIR$/../practice/practice.iml" />
+    </modules>
+  </component>
+</project>

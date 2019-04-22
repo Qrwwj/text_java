@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.swc.dao.HandleDao">
+    <select id="gethandles" resultType="com.swc.pojo.Handle">
+        select id,name,parentId,status,sortOrder from handle
+        <where>
+            <if test="parentId!=null">
+                and parentId!=0
+            </if>
+        </where>
+    </select>
+    <select id="selectone" resultType="com.swc.pojo.Handle">
+        select id,name,parentId,status,sortOrder from handle
+        where id=#{id}
+    </select>
+    <update id="updatehandle">
+        update handle
+        <set>
+            <trim suffixOverrides=",">
+                <if test="name!=null">
+                    name=#{name},
+                </if>
+                <if test="parentId!=null">
+                    parentId=#{parentId},
+                </if>
+                <if test="status!=null">
+                    status=#{status},
+                </if>
+                <if test="sortOrder!=null">
+                    sortOrder=#{sortOrder},
+                </if>
+            </trim>
+        </set>
+        <where>
+            id=#{id}
+        </where>
+    </update>
+    <delete id="deletehandle">
+        delete from handle where id=#{id}
+    </delete>
+    <insert id="inserthandle">
+        insert into handle
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="name!=null">
+                name,
+            </if>
+            <if test="parentId!=null">
+                parentId,
+            </if>
+            <if test="status!=null">
+                status,
+            </if>
+            <if test="sortOrder!=null">
+                sortOrder,
+            </if>
+        </trim>
+        <trim prefix="values(" suffix=")" suffixOverrides=",">
+            <if test="name!=null">
+                #{name},
+            </if>
+            <if test="parentId!=null">
+                #{parentId},
+            </if>
+            <if test="status!=null">
+                #{status},
+            </if>
+            <if test="sortOrder!=null">
+                #{sortOrder},
+            </if>
+        </trim>
+    </insert>
+</mapper>

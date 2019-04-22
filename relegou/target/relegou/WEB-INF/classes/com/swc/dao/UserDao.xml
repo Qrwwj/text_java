@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.swc.dao.UserDao">
+    <select id="getusers" resultType="com.swc.pojo.User">
+        select*from user
+    </select>
+    <insert id="insert" parameterType="com.swc.pojo.User">
+        insert into user
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="username!=null">
+                username,
+            </if>
+            <if test="password!=null">
+                password,
+            </if>
+            <if test="email!=null">
+                email,
+            </if>
+            <if test="phone!=null">
+                phone,
+            </if>
+            <if test="question!=null">
+                question,
+            </if>
+            <if test="answer!=null">
+                answer,
+            </if>
+            <if test="role!=null">
+                role,
+            </if>
+        </trim>
+        <trim prefix="values(" suffix=")" suffixOverrides=",">
+            <if test="username!=null">
+                #{username},
+            </if>
+            <if test="password!=null">
+                #{password},
+            </if>
+            <if test="email!=null">
+                #{email},
+            </if>
+            <if test="phone!=null">
+                #{phone},
+            </if>
+            <if test="question!=null">
+                #{question},
+            </if>
+            <if test="answer!=null">
+                #{answer},
+            </if>
+            <if test="role!=null">
+                #{role},
+            </if>
+        </trim>
+    </insert>
+    <update id="update">
+        update user
+        <set>
+            <trim suffixOverrides=",">
+                <if test="username!=null">
+                    username=#{username},
+                </if>
+                <if test="password!=null">
+                    password=#{password},
+                </if>
+                <if test="email!=null">
+                    email=#{email},
+                </if>
+                <if test="phone!=null">
+                    phone=#{phone},
+                </if>
+                <if test="question!=null">
+                    question=#{question},
+                </if>
+                <if test="answer!=null">
+                    answer=#{answer},
+                </if>
+                <if test="role!=null">
+                    role=#{role},
+                </if>
+            </trim>
+        </set>
+        <where>
+            id=#{id}
+        </where>
+    </update>
+    <delete id="delete">
+        delete from user where id=#{id}
+    </delete>
+    <select id="getUserByUsername" resultType="com.swc.pojo.User">
+        select*from user where username=#{username}
+    </select>
+    <select id="getUserByUsernameAndPassword" parameterType="map" resultType="com.swc.pojo.User">
+        select * from user where username=#{username} and password=#{password}
+    </select>
+    <select id="selectone" resultType="com.swc.pojo.User">
+        select*from user where id=#{id}
+    </select>
+</mapper>

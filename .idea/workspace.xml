@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="39db10cb-a192-4127-b58d-0f076b862382" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/lianxi/.idea/dictionaries/wwj.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/Homework/HomeWork.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/Homework/src/come/Homework/Administrator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/Homework/src/come/Homework/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/Homework/src/come/Homework/Enter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/Homework/src/come/Homework/Homepage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/Homework/src/come/Homework/PutAway.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/Homework/src/come/Homework/Register.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/Homework/src/come/Homework/ShangPin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/Homework/src/come/Homework/ShoopingCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/Homework/src/come/Homework/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/function/function.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/function/src/come/duotai/student/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/function/src/come/duotai/student/Text.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/function/src/come/phone/Phone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/function/src/come/phone/Text.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/function/src/come/shoopingcar/Sp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/jd1(2)/jd1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/jd1(2)/src/com/day01/Demo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/jd1(2)/src/com/day01/Demo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/jd1(2)/src/com/day01/Demo3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/jd1(2)/src/com/day01/Demo4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/jd1(2)/src/com/day02/Demo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/jd1(2)/src/com/day02/Demo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/jd1(2)/src/com/day02/Demo3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/jd1(2)/src/com/day02/Demo4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/jd1(2)/src/com/day02/Demo5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/jd1(2)/src/com/day02/Demo6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/jd1(2)/src/com/day02/Demo7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/jd1(2)/src/com/day02/Demo8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/jd1(2)/src/com/day03/Demo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/jd1(2)/src/com/day03/Demo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/jd1(2)/src/com/day03/Demo3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/jd1(2)/src/com/day04/Demo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/jd1(2)/src/com/day04/Demo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/jd1(2)/src/com/day04/Demo3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/jd1(2)/src/com/day04/Demo4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/jd1(2)/src/com/day04/Demo5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/jd1(2)/src/com/day05/Demo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/jd1(2)/src/com/day05/Demo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/jd1(2)/src/com/day05/Demo3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/jd1(2)/src/com/day05/Hero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/jd1(2)/src/com/itdr/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/lianxi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lianxi/lianxi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/lx/laoshi.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/lx/src/xiaopu/src/com/itdr/login/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/lx/src/xiaopu/src/com/itdr/register/Register.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/lx/src/xiaopu/src/com/itdr/text/XPText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/lx/src/xiaopu/xiaopu.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/HomeWork/come/Homework/Administrator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/HomeWork/come/Homework/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/HomeWork/come/Homework/Enter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/HomeWork/come/Homework/Homepage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/HomeWork/come/Homework/PutAway.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/HomeWork/come/Homework/Register.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/HomeWork/come/Homework/ShangPin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/HomeWork/come/Homework/ShoopingCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/HomeWork/come/Homework/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/function/come/duotai/student/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/function/come/duotai/student/Text.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/function/come/phone/Phone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/function/come/phone/Text.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/laoshi/xiaopu/src/com/itdr/login/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/laoshi/xiaopu/src/com/itdr/register/Register.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/laoshi/xiaopu/src/com/itdr/text/XPText.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/laoshi/xiaopu/xiaopu.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/come/Homework/Demo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/come/Homework/Demo10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/come/Homework/Demo11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/come/Homework/Demo12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/come/Homework/Demo13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/come/Homework/Demo14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/come/Homework/Demo15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/come/Homework/Demo16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/come/Homework/Demo17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/come/Homework/Demo18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/come/Homework/Demo19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/come/Homework/Demo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/come/Homework/Demo20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/come/Homework/Demo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/come/Homework/Demo3_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/come/Homework/Demo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/come/Homework/Demo5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/come/Homework/Demo6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/come/Homework/Demo7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/come/Homework/Demo8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/come/Homework/Demo9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/demo/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/demo/Demo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/demo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/dx/come/Demo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/dx/come/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/dx/come/demo/Demo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/dx/come/demo1/Demo1$Outer$Inner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/dx/come/demo1/Demo1$Outer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/dx/come/demo1/Demo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/dx/come/demo1/EC/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/dx/come/demo1/EC/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/dx/come/demo1/EC/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/dx/come/demo1/EC/EC.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/dx/come/demo1/EC/src/Login/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/dx/come/demo1/EC/src/MyText/FirstPage/Emp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/dx/come/demo1/EC/src/MyText/FirstPage/FirstPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/dx/come/demo1/EC/src/MyText/FirstPage/phone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/dx/come/demo1/EC/src/MyText/Login/login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/dx/come/demo1/EC/src/MyText/Register/register.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/dx/come/demo1/EC/src/Register/Register.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/dx/come/demo1/EC/src/Text/text.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/dx/come/dongwu/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/dx/come/dongwu/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/dx/come/dongwu/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/dx/come/dongwu/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/HaHa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/LD$1student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/LD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text/Demo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text/Demo10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text/Demo11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text/Demo12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text/Demo13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text/Demo13_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text/Demo14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text/Demo15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text/Demo16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text/Demo17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text/Demo18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text/Demo19$Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text/Demo19$StudentDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text/Demo19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text/Demo19_1$ShouJi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text/Demo19_1$ShouJiDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text/Demo19_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text/Demo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text/Demo20$fatherClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text/Demo20$gandmaClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text/Demo20$grandmaMotherClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text/Demo20$grandpaClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text/Demo20$javaclass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text/Demo20$motherClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text/Demo20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text/Demo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text/Demo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text/Demo5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text/Demo6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text/Demo7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text/Demo8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text/Demo9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text1_17/Demo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text1_17/Hero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text_1/Demo$ArrayTool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text_1/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi/text_1/Demo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi2/Dl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi2/JiSuanJi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi2/Z.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi3/D1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi3/D2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi3/D3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi3/D4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi3/D4Sp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi3/D4a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi3/D4b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi4/Dl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi4/Zc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi5/CS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi5/DL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi5/F.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi5/YouXi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi5/Z.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi5/ZC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi5/text.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi7/maopao/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi7/maopao/Demo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi7/maopao/Demo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi7/maopao/Demo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/lianxi/lianxi7/maopao/Demo_1xsc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/untitled/lianxi6/demo1/EC/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/untitled/lianxi6/demo1/EC/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/untitled/lianxi6/demo1/EC/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/out/production/untitled/lianxi6/demo1/EC/EC.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/come/Homework/Demo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/come/Homework/Demo10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/come/Homework/Demo11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/come/Homework/Demo12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/come/Homework/Demo13.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/come/Homework/Demo14.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/come/Homework/Demo15.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/come/Homework/Demo16.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/come/Homework/Demo17.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/come/Homework/Demo18.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/come/Homework/Demo19.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/come/Homework/Demo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/come/Homework/Demo20.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/come/Homework/Demo3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/come/Homework/Demo3_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/come/Homework/Demo4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/come/Homework/Demo5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/come/Homework/Demo6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/come/Homework/Demo7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/come/Homework/Demo8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/come/Homework/Demo9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/demo/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/demo/Demo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/demo/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/dx/come/Demo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/dx/come/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/dx/come/demo/Demo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/dx/come/demo1/Demo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/dx/come/demo1/EC/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/dx/come/demo1/EC/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/dx/come/demo1/EC/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/dx/come/demo1/EC/EC.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/dx/come/demo1/EC/out/production/EC/Login/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/dx/come/demo1/EC/out/production/EC/MyText/FirstPage/Emp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/dx/come/demo1/EC/out/production/EC/MyText/FirstPage/FirstPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/dx/come/demo1/EC/out/production/EC/MyText/FirstPage/phone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/dx/come/demo1/EC/out/production/EC/MyText/Login/login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/dx/come/demo1/EC/out/production/EC/MyText/Register/register.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/dx/come/demo1/EC/out/production/EC/Register/Register.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/dx/come/demo1/EC/out/production/EC/Text/text.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/dx/come/demo1/EC/src/Login/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/dx/come/demo1/EC/src/MyText/FirstPage/Emp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/dx/come/demo1/EC/src/MyText/FirstPage/FirstPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/dx/come/demo1/EC/src/MyText/FirstPage/phone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/dx/come/demo1/EC/src/MyText/Login/login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/dx/come/demo1/EC/src/MyText/Register/register.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/dx/come/demo1/EC/src/Register/Register.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/dx/come/demo1/EC/src/Text/text.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/dx/come/dongwu/A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/dx/come/dongwu/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/dx/come/dongwu/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/dx/come/dongwu/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi/HaHa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi/LD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi/text/Demo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi/text/Demo10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi/text/Demo11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi/text/Demo12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi/text/Demo13.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi/text/Demo13_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi/text/Demo14.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi/text/Demo15.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi/text/Demo16.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi/text/Demo17.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi/text/Demo18.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi/text/Demo19.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi/text/Demo19_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi/text/Demo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi/text/Demo20.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi/text/Demo3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi/text/Demo4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi/text/Demo5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi/text/Demo6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi/text/Demo7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi/text/Demo8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi/text/Demo9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi/text1_17/Demo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi/text1_17/Hero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi/text_1/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi/text_1/Demo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi2/Dl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi2/JiSuanJi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi2/Z.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi3/D1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi3/D2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi3/D3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi3/D4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi3/D4Sp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi3/D4Sp1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi3/D4a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi3/D4b.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi4/Dl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi4/Zc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi5/CS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi5/DL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi5/F.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi5/YouXi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi5/Z.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi5/ZC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi5/text.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi7/maopao/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi7/maopao/Demo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi7/maopao/Demo3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi7/maopao/Demo4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianxi/src/lianxi7/maopao/Demo_1xsc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x/.idea/workspace.xml" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="2720" />
+    <option name="height" value="1415" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="text_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="text_java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39db10cb-a192-4127-b58d-0f076b862382" name="Default" comment="" />
+      <created>1552564259118</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552564259118</updated>
+      <workItem from="1552564260678" duration="37000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="37000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace：命名空间，用于隔离sql，实际使用中，与mapper绑定 -->
+<mapper namespace="com.dianshang.dao.ProductDao">
+    <!-- sql语句 -->
+    <select id="getprotuct" resultType="Product" parameterType="map">
+        select id,pname,handle_id,subtitule,main_image,sub_image,detail,price,stock,status,create_time,update_time
+        from product
+        <where>
+            <if test="pname!=null">
+                and pname like concat('%',#{pname},'%')
+            </if>
+            <if test="status!=null">
+                and status=#{status}
+            </if>
+        </where>
+        order by handle_id
+    </select>
+    <insert id="insert" parameterType="Product">
+        insert into product
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="handle_id!=null">handle_id,</if>
+            <if test="pname!=null">pname,</if>
+            <if test="subtitule!=null">subtitule,</if>
+            <if test="main_image!=null">main_image,</if>
+            <if test="sub_image!=null">sub_image,</if>
+            <if test="detail!=null">detail,</if>
+            <if test="price!=null">price,</if>
+            <if test="stock!=null">stock,</if>
+            <if test="status!=null">status,</if>
+            create_time,update_time
+        </trim>
+        <trim prefix="values(" suffix=")" suffixOverrides=",">
+            <if test="handle_id!=null">#{handle_id},</if>
+            <if test="pname!=null">#{pname},</if>
+            <if test="subtitule!=null">#{subtitule},</if>
+            <if test="main_image!=null">#{main_image},</if>
+            <if test="sub_image!=null">#{sub_image},</if>
+            <if test="detail!=null">#{detail},</if>
+            <if test="price!=null">#{price},</if>
+            <if test="stock!=null">#{stock},</if>
+            <if test="status!=null">#{status},</if>
+            now(),now()
+        </trim>
+    </insert>
+    <select id="getOneList" resultType="Product">
+        select id,pname,handle_id,subtitule,main_image,sub_image,detail,price,stock,status,create_time,update_time
+        from product
+        <where>
+            id=#{id}
+        </where>
+    </select>
+    <update id="updateproduct">
+        update product
+        <set>
+            <trim suffixOverrides=",">
+                <if test="pname!=null">pname=#{pname},</if>
+                <if test="subtitule!=null">subtitule=#{subtitule},</if>
+                <if test="main_image!=null">main_image=#{main_image},</if>
+                <if test="detail!=null">detail=#{detail},</if>
+                <if test="price!=null">price=#{price},</if>
+                <if test="stock!=null">stock=#{stock},</if>
+                <if test="status!=null">status=#{status},</if>
+                update_time=now()
+            </trim>
+        </set>
+        <where>
+           and id=#{id}
+        </where>
+    </update>
+    <select id="gethandles" resultType="Handle">
+        select * from handle
+    </select>
+    <delete id="deleteOne" parameterType="Product">
+        delete from product
+        <where>
+            id=#{id}
+        </where>
+    </delete>
+    <!--前台数据-->
+    <select id="getpct" resultType="Product">
+        select id,pname,handle_id,subtitule,main_image,sub_image,detail,price,stock,status,create_time,update_time
+        from product
+        <where>
+            <if test="pname!=null">
+                and pname like concat('%',#{name},'%')
+            </if>
+            <if test="status!=null">
+                and status=#{status}
+            </if>
+        </where>
+        order by handle_id
+    </select>
+</mapper>

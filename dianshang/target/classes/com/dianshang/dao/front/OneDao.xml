@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace：命名空间，用于隔离sql，实际使用中，与mapper绑定 -->
+<mapper namespace="com.dianshang.dao.front.OneDao">
+    <!-- sql语句 -->
+<resultMap id="onemap" type="One">
+    <id property="id" column="id"/>
+    <result column="name" property="name"/>
+    <collection property="twos" column="id" javaType="java.util.List" ofType="Two" select="gettwo">
+        <id column="tid" property="tid"/>
+        <result property="tname" column="tname"/>
+        <result property="pid" column="pid"/>
+    </collection>
+</resultMap>
+    <select id="getones" resultMap="onemap">
+        select id,name from one
+
+    </select>
+    <select id="gettwo" resultType="Two">
+        select tid,tname,pid from two where pid=#{id}
+    </select>
+</mapper>
